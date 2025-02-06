@@ -1,1 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 0 26px purple;
+  border: double black;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+  
+}
+
 
