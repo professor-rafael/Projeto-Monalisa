@@ -31,7 +31,31 @@ html, body {
   }
   
   footer p {
-      margin-top: 2px;
+    margin-top: 2px;
+    margin-top: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    background: linear-gradient(45deg, #638ED1, #ff0000, #009688,#44E3D3);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    outline: none;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+}
+}
     
   }
   
